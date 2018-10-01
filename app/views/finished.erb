@@ -1,0 +1,17 @@
+Click here to play again as the same players:
+<br>
+<form action="/play/<%= @player_1.id %>/<%= @player_2.id %>" method="get">
+<input type="submit">
+</form>
+
+<br><br>
+Click here to change players:
+<br>
+<form action="/" action="get">
+<input type="submit">
+</form>
+
+<br>
+<br>
+<a href="/stats/<%=@game.id%>">Click here to view your game stats</a>
+

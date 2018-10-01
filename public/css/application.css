@@ -1,0 +1,32 @@
+<style>
+
+.racer-table td {
+  background-color: white;
+}
+
+.racer-table td.active {
+  background-color: black;
+}
+
+.racer-table td {
+  height: 20px;
+  width: 100em;
+}
+
+body {
+	width: 500px;
+	margin: auto;
+}
+
+div .button {
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	color: white;
+}
+
+#finished {
+	margin-top: 20px;
+}
+
+</style>
